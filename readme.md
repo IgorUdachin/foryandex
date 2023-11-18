@@ -42,5 +42,16 @@
 ## Оформление commit
 ### Прочитал рекомендации и выполнил задачи
 
+## Попробовал mermaid
+
+```mermaid
+
+graph LR;
+  untracked -- "git add"        --> staged;
+  staged    -- "git commit"     --> tracked/comitted;
+  modified  -- "git add and/or git commit"        --> staged;
+
+```
+
 
 
